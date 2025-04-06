@@ -1,7 +1,7 @@
 <script lang="ts">
 	import '../app.css';
 	import { Header } from '$components';
-	import Footer from '$components/Footer.svelte';
+	import { Footer } from '$components';
 
 	let { children } = $props();
 </script>
